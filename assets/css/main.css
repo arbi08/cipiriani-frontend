@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Cairo;
+    src: url(/font/Cairo-Black.ttf);
+}
+
+@font-face {
+    font-family: Playfair-Italic;
+    src: url(/font/PlayfairDisplay-Italic.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Playfair-Italic, sans-serif;
+}
+
+
+/* Hide scrollbar globally */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+html, body {
+  overflow: hidden;
+}
